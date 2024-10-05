@@ -1,0 +1,36 @@
+/* :root {
+    width:200px;
+    background-color: skyblue;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0px; */
+/* } */
+* {
+    color: aqua;
+}
+img {
+    width: 200px;
+}
+nav a {
+    display: block;
+    color: black;
+}
+
+header {
+    display: block;
+    color: rgba(87, 128, 206, 0.664)
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+p {
+    font: 200;
+    color: black;
+}
+
+nav {
+    font-style: normal;
+}
