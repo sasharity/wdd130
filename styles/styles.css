@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,1);
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+
+p {
+    padding: 0px;
+}
+
+main {
+    max-width: 1000px;
+}
+
+aside {
+    width: 20rem;    
+    text-align: center;
+    
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    position: relative;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 10px solid #0001;
+    text-align: center;
+}

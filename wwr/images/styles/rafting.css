@@ -1,0 +1,61 @@
+*{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+:root {
+    --width:200px;
+    --background-color: white;
+    --margin: 1rem;
+    --padding: 1rem;
+    --border: 0px;
+}
+
+main {
+    color: rgb(12, 29, 29);
+}
+
+img {
+    width: 100px;
+}
+nav a {
+    display: block;
+    color: black;
+}
+
+
+
+header {
+    display: block;
+    color: rgba(87, 128, 206, 0.664)
+}
+
+.herodiv {
+    font-style: italic;
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position:relative
+}
+
+h1 {
+    position: absolute;
+    top: 25px;
+    bottom: 40px; 
+}
+
+img {
+    float: right;
+}
+p {
+    font: 200;
+    color: black;
+}
+
+nav {
+    font-style: normal;
+}

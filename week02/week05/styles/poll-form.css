@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+    margin: 5px;
+}
+
+h1 {
+    margin: 5px;
+    width: auto;
+    text-align: center;
+    color: navy  
+}
+
+form {
+    width: 650px;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid;
+    border-radius: 1rem;
+    background-color: gainsboro;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+legend {
+    margin: 1px;
+    font-size: larger;
+    padding: 1rem;
+}
+
+label, input, button , select, textarea {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;  
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px;
+    font-size: larger;
+    border: none;
+    border-radius: 1rem;
+    padding: 1px;
+    background-color: navy;
+    color: aliceblue;
+}
+button:hover {
+    background-color: green;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    margin: auto;
+    font-style: italic;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
